@@ -1,0 +1,51 @@
+\documentclass[twocolumn]{article}
+\title{CSCI 243 Project 5 Latex}
+\author{Austin Stiene}
+\begin{document}
+\maketitle
+
+\section{Math Equations}
+$$y=\sin{x}$$
+$$a=\ b+c$$
+$$ 5^2= 25$$
+
+\section{Footnotes}
+ "I came, I saw, I conquered "
+\footnote{Julius Casear}
+
+
+\section{List}
+
+\begin {enumerate}
+\item Apples
+\item Oranges
+\item Bananas
+\item Strawberries
+\item Cherries
+
+\end {enumerate}
+
+\section{Table}
+\begin{table}[h]
+\begin{center}
+\begin{tabular}{|l|l|r|l|}
+\hline
+Sugar & Eggs & Flour & Milk \\
+\hline
+Blue & Red & Green & Orange\\
+\hline
+\end{tabular}
+\caption{Ingredients and Colors}
+\end{center}
+\end{table}
+
+
+
+\section {Picture}
+
+
+\begin{center}
+\includegraphics[scale =3] {CooperHamster.jpg}
+\end{center}
+\end{document}
+
